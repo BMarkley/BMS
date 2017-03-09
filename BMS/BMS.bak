@@ -286,28 +286,6 @@ SRN
 Text GLabel 6450 7750 0    39   Input ~ 0
 SRP
 $Comp
-L CONN_01X05 P?
-U 1 1 58BFE627
-P 800 8850
-F 0 "P?" H 800 9150 50  0000 C CNN
-F 1 "CONN_01X05" V 900 8850 50  0000 C CNN
-F 2 "" H 800 8850 50  0000 C CNN
-F 3 "" H 800 8850 50  0000 C CNN
-	1    800  8850
-	-1   0    0    1   
-$EndComp
-$Comp
-L CONN_01X05 P?
-U 1 1 58BFE8D9
-P 800 8150
-F 0 "P?" H 800 8450 50  0000 C CNN
-F 1 "CONN_01X05" V 900 8150 50  0000 C CNN
-F 2 "" H 800 8150 50  0000 C CNN
-F 3 "" H 800 8150 50  0000 C CNN
-	1    800  8150
-	-1   0    0    1   
-$EndComp
-$Comp
 L D_Zener D?
 U 1 1 58C03578
 P 8600 14000
@@ -900,33 +878,33 @@ Text Notes 7000 15050 0    79   ~ 0
 High Voltage Circuit
 Text Notes 2300 15700 0    79   ~ 0
 Battery Monitoring
-Text GLabel 1000 9050 2    60   Input ~ 0
+Text GLabel 1000 8800 2    60   Input ~ 0
 C_1+/2-
-Text GLabel 1000 8950 2    60   Input ~ 0
+Text GLabel 1000 8700 2    60   Input ~ 0
 C_2+/3-
-Text GLabel 1000 8850 2    60   Input ~ 0
+Text GLabel 1000 8600 2    60   Input ~ 0
 C_3+/4-
-Text GLabel 1000 8750 2    60   Input ~ 0
+Text GLabel 1000 8500 2    60   Input ~ 0
 C_4+/5-
-Text GLabel 1000 8650 2    60   Input ~ 0
+Text GLabel 1000 8400 2    60   Input ~ 0
 C_5+/6-
-Text GLabel 1000 8350 2    60   Input ~ 0
+Text GLabel 1000 8300 2    60   Input ~ 0
 C_6+/7-
-Text GLabel 1000 8250 2    60   Input ~ 0
+Text GLabel 1000 8200 2    60   Input ~ 0
 C_7+/8-
-Text GLabel 1000 8150 2    60   Input ~ 0
+Text GLabel 1000 8100 2    60   Input ~ 0
 C_8+/9-
-Text GLabel 1000 8050 2    60   Input ~ 0
+Text GLabel 1000 8000 2    60   Input ~ 0
 C_9+/10-
-Text GLabel 1000 7950 2    60   Input ~ 0
+Text GLabel 1000 7900 2    60   Input ~ 0
 C_10+/11-
-Text GLabel 1000 7700 2    60   Input ~ 0
+Text GLabel 1000 7800 2    60   Input ~ 0
 C_11+/12-
-Text GLabel 1000 7600 2    60   Input ~ 0
+Text GLabel 1000 7700 2    60   Input ~ 0
 C_12+/13-
-Text GLabel 1000 7500 2    60   Input ~ 0
+Text GLabel 1000 7600 2    60   Input ~ 0
 C_13+/14-
-Text GLabel 1000 7400 2    60   Input ~ 0
+Text GLabel 1000 7500 2    60   Input ~ 0
 C_14+/15-
 Text GLabel 1000 9450 2    60   Input ~ 0
 PACK+
@@ -945,23 +923,8 @@ Text Notes 900  9700 0    39   ~ 0
 Battery Negative
 Text Notes 900  9350 0    39   ~ 0
 Battery Positive
-$Comp
-L CONN_01X04 P?
-U 1 1 58CB5A42
-P 800 7550
-F 0 "P?" H 800 7800 50  0000 C CNN
-F 1 "CONN_01X04" V 900 7550 50  0000 C CNN
-F 2 "" H 800 7550 50  0000 C CNN
-F 3 "" H 800 7550 50  0000 C CNN
-	1    800  7550
-	-1   0    0    1   
-$EndComp
-Text Notes 900  9200 0    39   ~ 0
-First Cell Set
-Text Notes 900  8500 0    39   ~ 0
-Second Cell Set
-Text Notes 900  7850 0    39   ~ 0
-Third Cell Set
+Text Notes 900  8950 0    39   ~ 0
+Cells
 Text Notes 600  10100 0    79   ~ 0
 Battery Connectors
 $Comp
@@ -1639,23 +1602,23 @@ $EndComp
 $Comp
 L C C?
 U 1 1 58D37A51
-P 4600 13550
-F 0 "C?" H 4625 13650 50  0000 L CNN
-F 1 "Cf" H 4625 13450 50  0000 L CNN
-F 2 "" H 4638 13400 50  0000 C CNN
-F 3 "" H 4600 13550 50  0000 C CNN
-	1    4600 13550
+P 4600 11250
+F 0 "C?" H 4625 11350 50  0000 L CNN
+F 1 "Cf" H 4625 11150 50  0000 L CNN
+F 2 "" H 4638 11100 50  0000 C CNN
+F 3 "" H 4600 11250 50  0000 C CNN
+	1    4600 11250
 	1    0    0    -1  
 $EndComp
 $Comp
 L VSS #PWR?
 U 1 1 58D38D66
-P 4600 13850
-F 0 "#PWR?" H 4600 13700 50  0001 C CNN
-F 1 "VSS" H 4600 14000 50  0000 C CNN
-F 2 "" H 4600 13850 50  0000 C CNN
-F 3 "" H 4600 13850 50  0000 C CNN
-	1    4600 13850
+P 4600 11450
+F 0 "#PWR?" H 4600 11300 50  0001 C CNN
+F 1 "VSS" H 4600 11600 50  0000 C CNN
+F 2 "" H 4600 11450 50  0000 C CNN
+F 3 "" H 4600 11450 50  0000 C CNN
+	1    4600 11450
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1788,7 +1751,7 @@ Text Notes 8150 4700 0    79   ~ 0
 Arduino Nano Headers
 Text Notes 4950 4700 0    79   ~ 0
 Microcontroller Communication Circuit
-Text GLabel 9400 3100 2    39   Input ~ 0
+Text GLabel 9750 3100 2    39   Input ~ 0
 Vin
 Text Notes 8300 14650 0    39   ~ 0
 Ichg
@@ -1800,7 +1763,7 @@ Text Notes 5950 11100 0    39   ~ 0
 Battery Negative
 Text Notes 9750 14100 0    39   ~ 0
 Charger/Load Negative
-Text Notes 4400 14100 0    39   ~ 0
+Text Notes 4400 11700 0    39   ~ 0
 Battery Negative
 Text Notes 8450 11100 0    39   ~ 0
 Battery Negative
@@ -1834,17 +1797,17 @@ F 3 "" H 6650 2000 50  0000 C CNN
 	1    6650 2000
 	1    0    0    -1  
 $EndComp
-Text GLabel 6850 1800 2    39   Input ~ 0
+Text GLabel 7100 1800 2    39   Input ~ 0
 Vin
 $Comp
 L VSS #PWR?
 U 1 1 58DD56CE
-P 6200 2250
-F 0 "#PWR?" H 6200 2100 50  0001 C CNN
-F 1 "VSS" H 6200 2400 50  0000 C CNN
-F 2 "" H 6200 2250 50  0000 C CNN
-F 3 "" H 6200 2250 50  0000 C CNN
-	1    6200 2250
+P 6200 2350
+F 0 "#PWR?" H 6200 2200 50  0001 C CNN
+F 1 "VSS" H 6200 2500 50  0000 C CNN
+F 2 "" H 6200 2350 50  0000 C CNN
+F 3 "" H 6200 2350 50  0000 C CNN
+	1    6200 2350
 	-1   0    0    1   
 $EndComp
 Text GLabel 5750 1800 0    60   Input ~ 0
@@ -1852,12 +1815,101 @@ C_5+/6-
 $Comp
 L CONN_01X02 P?
 U 1 1 58C1BE36
-P 7050 2150
-F 0 "P?" H 7050 2300 50  0000 C CNN
-F 1 "CONN_01X02" V 7150 2150 50  0000 C CNN
-F 2 "" H 7050 2150 50  0000 C CNN
-F 3 "" H 7050 2150 50  0000 C CNN
-	1    7050 2150
+P 7150 2250
+F 0 "P?" H 7150 2400 50  0000 C CNN
+F 1 "CONN_01X02" V 7250 2250 50  0000 C CNN
+F 2 "" H 7150 2250 50  0000 C CNN
+F 3 "" H 7150 2250 50  0000 C CNN
+	1    7150 2250
+	1    0    0    -1  
+$EndComp
+Text Notes 7050 2400 2    60   ~ 0
+5V Power Output
+Text Notes 5350 2750 0    79   ~ 0
+5V Voltage Regulator Circuit
+$Comp
+L ARDUINO_NANO ARDUINO?
+U 1 1 58C31A8C
+P 8750 3550
+F 0 "ARDUINO?" H 8750 4400 70  0000 C CNN
+F 1 "ARDUINO_NANO" V 8750 3550 70  0000 C CNN
+F 2 "" H 8750 3550 60  0000 C CNN
+F 3 "" H 8750 3550 60  0000 C CNN
+	1    8750 3550
+	1    0    0    -1  
+$EndComp
+Text Notes 6650 16250 0    79   ~ 0
+BMarkley's BMS
+Text Notes 9850 16400 0    79   ~ 0
+1
+Text Notes 7400 16350 0    59   ~ 0
+March 09 2017
+$Comp
+L Polyfuse F?
+U 1 1 58C39507
+P 6900 2000
+F 0 "F?" V 6800 2000 50  0000 C CNN
+F 1 "Polyfuse" V 7000 2000 50  0000 C CNN
+F 2 "" H 6950 1800 50  0001 L CNN
+F 3 "" H 6900 2000 50  0001 C CNN
+	1    6900 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Polyfuse F?
+U 1 1 58C242C5
+P 9550 3100
+F 0 "F?" V 9450 3100 50  0000 C CNN
+F 1 "Polyfuse" V 9650 3100 50  0000 C CNN
+F 2 "" H 9600 2900 50  0001 L CNN
+F 3 "" H 9550 3100 50  0001 C CNN
+	1    9550 3100
+	0    1    1    0   
+$EndComp
+NoConn ~ 8150 2800
+NoConn ~ 8150 2900
+NoConn ~ 8150 3000
+NoConn ~ 9350 2800
+NoConn ~ 9350 3000
+NoConn ~ 9350 3200
+NoConn ~ 9350 3300
+NoConn ~ 9350 3600
+NoConn ~ 9350 3700
+NoConn ~ 9350 3800
+NoConn ~ 9350 3900
+NoConn ~ 9350 4000
+NoConn ~ 9350 4100
+NoConn ~ 9350 4200
+NoConn ~ 8150 4200
+NoConn ~ 8150 4100
+NoConn ~ 8150 4000
+NoConn ~ 8150 3900
+NoConn ~ 8150 3800
+NoConn ~ 8150 3700
+NoConn ~ 8150 3600
+NoConn ~ 8150 3500
+NoConn ~ 8150 3400
+NoConn ~ 8150 3300
+$Comp
+L LED D?
+U 1 1 58C47DEF
+P 3000 4150
+F 0 "D?" H 3000 4250 50  0000 C CNN
+F 1 "LED" H 3000 4050 50  0000 C CNN
+F 2 "" H 3000 4150 50  0000 C CNN
+F 3 "" H 3000 4150 50  0000 C CNN
+	1    3000 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 58C48AC2
+P 2850 4000
+F 0 "R?" V 2750 4000 50  0000 C CNN
+F 1 "Rled" V 2850 4000 50  0000 C CNN
+F 2 "" V 2780 4000 50  0000 C CNN
+F 3 "" H 2850 4000 50  0000 C CNN
+	1    2850 4000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2018,7 +2070,9 @@ Wire Wire Line
 Connection ~ 7450 13800
 Connection ~ 7450 14200
 Wire Wire Line
-	2600 2050 3150 2050
+	2600 2050 3050 2050
+Wire Wire Line
+	3050 2050 3150 2050
 Wire Wire Line
 	3150 2050 3200 2050
 Wire Wire Line
@@ -2032,7 +2086,9 @@ Wire Wire Line
 Wire Wire Line
 	3150 2900 3150 2950
 Wire Wire Line
-	2900 2900 3150 2900
+	2900 2900 3050 2900
+Wire Wire Line
+	3050 2900 3150 2900
 Wire Wire Line
 	3150 2900 3200 2900
 Wire Wire Line
@@ -2065,7 +2121,9 @@ Wire Wire Line
 Wire Wire Line
 	3150 3750 3150 3800
 Wire Wire Line
-	2900 3750 3150 3750
+	2900 3750 3050 3750
+Wire Wire Line
+	3050 3750 3150 3750
 Wire Wire Line
 	3150 3750 3200 3750
 Wire Wire Line
@@ -2091,7 +2149,9 @@ Wire Wire Line
 Wire Wire Line
 	3150 4600 3150 4650
 Wire Wire Line
-	2900 4600 3150 4600
+	2900 4600 3050 4600
+Wire Wire Line
+	3050 4600 3150 4600
 Wire Wire Line
 	3150 4600 3200 4600
 Wire Wire Line
@@ -2116,7 +2176,9 @@ Wire Wire Line
 Wire Wire Line
 	3150 5450 3150 5500
 Wire Wire Line
-	2900 5450 3150 5450
+	2900 5450 3050 5450
+Wire Wire Line
+	3050 5450 3150 5450
 Wire Wire Line
 	3150 5450 3200 5450
 Wire Wire Line
@@ -2173,7 +2235,9 @@ Wire Wire Line
 Wire Wire Line
 	3150 7350 3150 7400
 Wire Wire Line
-	2850 7350 3150 7350
+	2850 7350 3050 7350
+Wire Wire Line
+	3050 7350 3150 7350
 Wire Wire Line
 	3150 7350 3200 7350
 Wire Wire Line
@@ -2206,7 +2270,9 @@ Wire Wire Line
 Wire Wire Line
 	3150 8200 3150 8250
 Wire Wire Line
-	2800 8200 3150 8200
+	2800 8200 3050 8200
+Wire Wire Line
+	3050 8200 3150 8200
 Wire Wire Line
 	3150 8200 3200 8200
 Wire Wire Line
@@ -2232,7 +2298,9 @@ Wire Wire Line
 Wire Wire Line
 	3150 9050 3150 9100
 Wire Wire Line
-	2800 9050 3150 9050
+	2800 9050 3050 9050
+Wire Wire Line
+	3050 9050 3150 9050
 Wire Wire Line
 	3150 9050 3200 9050
 Wire Wire Line
@@ -2257,7 +2325,9 @@ Wire Wire Line
 Wire Wire Line
 	3150 9900 3150 9950
 Wire Wire Line
-	2800 9900 3150 9900
+	2800 9900 3050 9900
+Wire Wire Line
+	3050 9900 3150 9900
 Wire Wire Line
 	3150 9900 3200 9900
 Wire Wire Line
@@ -2304,7 +2374,9 @@ Wire Wire Line
 	4600 10200 4700 10200
 Connection ~ 3550 6500
 Wire Wire Line
-	2900 6400 3150 6400
+	2900 6400 3050 6400
+Wire Wire Line
+	3050 6400 3150 6400
 Wire Wire Line
 	3150 6400 4100 6400
 Connection ~ 3150 6400
@@ -2315,7 +2387,9 @@ Wire Wire Line
 Wire Wire Line
 	3150 11800 3150 11850
 Wire Wire Line
-	2800 11800 3150 11800
+	2800 11800 3050 11800
+Wire Wire Line
+	3050 11800 3150 11800
 Wire Wire Line
 	3150 11800 3200 11800
 Wire Wire Line
@@ -2348,7 +2422,9 @@ Wire Wire Line
 Wire Wire Line
 	3150 12650 3150 12700
 Wire Wire Line
-	2800 12650 3150 12650
+	2800 12650 3050 12650
+Wire Wire Line
+	3050 12650 3150 12650
 Wire Wire Line
 	3150 12650 3200 12650
 Wire Wire Line
@@ -2374,7 +2450,9 @@ Wire Wire Line
 Wire Wire Line
 	3150 13500 3150 13550
 Wire Wire Line
-	2800 13500 3150 13500
+	2800 13500 3050 13500
+Wire Wire Line
+	3050 13500 3150 13500
 Wire Wire Line
 	3150 13500 3200 13500
 Wire Wire Line
@@ -2399,7 +2477,9 @@ Wire Wire Line
 Wire Wire Line
 	3150 14350 3150 14400
 Wire Wire Line
-	2800 14350 3150 14350
+	2800 14350 3050 14350
+Wire Wire Line
+	3050 14350 3150 14350
 Wire Wire Line
 	3150 14350 3200 14350
 Wire Wire Line
@@ -2434,7 +2514,9 @@ Wire Wire Line
 	3550 14650 3800 14650
 Connection ~ 3550 10950
 Wire Wire Line
-	2800 10850 3150 10850
+	2800 10850 3050 10850
+Wire Wire Line
+	3050 10850 3150 10850
 Wire Wire Line
 	3150 10850 4100 10850
 Connection ~ 3150 10850
@@ -2465,7 +2547,7 @@ Wire Notes Line
 Wire Notes Line
 	1950 1900 3700 1900
 Wire Notes Line
-	3000 1900 3000 15500
+	2700 1900 2700 15500
 Wire Notes Line
 	1950 15500 1950 1900
 Wire Notes Line
@@ -2852,10 +2934,10 @@ Connection ~ 4600 5750
 Wire Wire Line
 	4600 8350 4600 10200
 Wire Wire Line
-	4600 10200 4600 13400
+	4600 10200 4600 11100
 Connection ~ 4600 10200
 Wire Wire Line
-	4600 13700 4600 13850
+	4600 11400 4600 11450
 Wire Wire Line
 	6150 10800 6150 10850
 Wire Wire Line
@@ -2918,35 +3000,29 @@ Wire Notes Line
 Wire Wire Line
 	9350 10300 9300 10300
 Wire Wire Line
-	6200 2100 6200 2200
+	6200 2100 6200 2300
 Wire Wire Line
-	6200 2200 6200 2250
+	6200 2300 6200 2350
 Wire Wire Line
 	6600 1800 6650 1800
 Wire Wire Line
-	6650 1800 6800 1800
+	6650 1800 6900 1800
 Wire Wire Line
-	6800 1800 6850 1800
+	6900 1800 7100 1800
 Wire Wire Line
 	6650 1800 6650 1850
 Connection ~ 6650 1800
 Wire Wire Line
-	6650 2150 6650 2200
+	6650 2150 6650 2300
 Wire Wire Line
-	6200 2200 6650 2200
+	6200 2300 6650 2300
 Wire Wire Line
-	6650 2200 6850 2200
-Connection ~ 6200 2200
+	6650 2300 6950 2300
+Connection ~ 6200 2300
 Wire Wire Line
 	5800 1800 5750 1800
-Wire Wire Line
-	6800 1800 6800 2100
-Wire Wire Line
-	6800 2100 6850 2100
-Connection ~ 6800 1800
-Connection ~ 6650 2200
-Text Notes 7050 2350 2    60   ~ 0
-5V Power Output
+Connection ~ 6900 1800
+Connection ~ 6650 2300
 Wire Notes Line
 	5200 1550 7300 1550
 Wire Notes Line
@@ -2955,19 +3031,6 @@ Wire Notes Line
 	7300 2600 5200 2600
 Wire Notes Line
 	5200 2600 5200 1550
-Text Notes 5350 2750 0    79   ~ 0
-5V Voltage Regulator Circuit
-$Comp
-L ARDUINO_NANO ARDUINO?
-U 1 1 58C31A8C
-P 8750 3550
-F 0 "ARDUINO?" H 8750 4400 70  0000 C CNN
-F 1 "ARDUINO_NANO" V 8750 3550 70  0000 C CNN
-F 2 "" H 8750 3550 60  0000 C CNN
-F 3 "" H 8750 3550 60  0000 C CNN
-	1    8750 3550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9400 3400 9350 3400
 Wire Wire Line
@@ -2980,4 +3043,422 @@ Wire Wire Line
 	8150 3100 8100 3100
 Wire Wire Line
 	8150 3200 8100 3200
+Wire Wire Line
+	6900 1800 6900 1850
+Wire Wire Line
+	6950 2200 6900 2200
+Wire Wire Line
+	6900 2200 6900 2150
+Wire Wire Line
+	9700 3100 9750 3100
+Wire Wire Line
+	2850 3850 3050 3850
+Wire Wire Line
+	3050 3850 3050 3750
+Connection ~ 3050 3750
+$Comp
+L LED D?
+U 1 1 58C528FC
+P 3000 5000
+F 0 "D?" H 3000 5100 50  0000 C CNN
+F 1 "LED" H 3000 4900 50  0000 C CNN
+F 2 "" H 3000 5000 50  0000 C CNN
+F 3 "" H 3000 5000 50  0000 C CNN
+	1    3000 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 58C52903
+P 2850 4850
+F 0 "R?" V 2750 4850 50  0000 C CNN
+F 1 "Rled" V 2850 4850 50  0000 C CNN
+F 2 "" V 2780 4850 50  0000 C CNN
+F 3 "" H 2850 4850 50  0000 C CNN
+	1    2850 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 4700 3050 4700
+Wire Wire Line
+	3050 4700 3050 4600
+$Comp
+L LED D?
+U 1 1 58C55E85
+P 3000 3300
+F 0 "D?" H 3000 3400 50  0000 C CNN
+F 1 "LED" H 3000 3200 50  0000 C CNN
+F 2 "" H 3000 3300 50  0000 C CNN
+F 3 "" H 3000 3300 50  0000 C CNN
+	1    3000 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 58C55E8C
+P 2850 3150
+F 0 "R?" V 2750 3150 50  0000 C CNN
+F 1 "Rled" V 2850 3150 50  0000 C CNN
+F 2 "" V 2780 3150 50  0000 C CNN
+F 3 "" H 2850 3150 50  0000 C CNN
+	1    2850 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 3000 3050 3000
+Wire Wire Line
+	3050 3000 3050 2900
+$Comp
+L LED D?
+U 1 1 58C56BD9
+P 3000 2450
+F 0 "D?" H 3000 2550 50  0000 C CNN
+F 1 "LED" H 3000 2350 50  0000 C CNN
+F 2 "" H 3000 2450 50  0000 C CNN
+F 3 "" H 3000 2450 50  0000 C CNN
+	1    3000 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 58C56BE0
+P 2850 2300
+F 0 "R?" V 2750 2300 50  0000 C CNN
+F 1 "Rled" V 2850 2300 50  0000 C CNN
+F 2 "" V 2780 2300 50  0000 C CNN
+F 3 "" H 2850 2300 50  0000 C CNN
+	1    2850 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 2150 3050 2150
+Wire Wire Line
+	3050 2150 3050 2050
+$Comp
+L LED D?
+U 1 1 58C59B17
+P 3000 5850
+F 0 "D?" H 3000 5950 50  0000 C CNN
+F 1 "LED" H 3000 5750 50  0000 C CNN
+F 2 "" H 3000 5850 50  0000 C CNN
+F 3 "" H 3000 5850 50  0000 C CNN
+	1    3000 5850
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 58C59B1E
+P 2850 5700
+F 0 "R?" V 2750 5700 50  0000 C CNN
+F 1 "Rled" V 2850 5700 50  0000 C CNN
+F 2 "" V 2780 5700 50  0000 C CNN
+F 3 "" H 2850 5700 50  0000 C CNN
+	1    2850 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 5550 3050 5550
+Wire Wire Line
+	3050 5550 3050 5450
+$Comp
+L LED D?
+U 1 1 58C5A187
+P 3000 6900
+F 0 "D?" H 3000 7000 50  0000 C CNN
+F 1 "LED" H 3000 6800 50  0000 C CNN
+F 2 "" H 3000 6900 50  0000 C CNN
+F 3 "" H 3000 6900 50  0000 C CNN
+	1    3000 6900
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 58C5A18E
+P 2850 6750
+F 0 "R?" V 2750 6750 50  0000 C CNN
+F 1 "Rled" V 2850 6750 50  0000 C CNN
+F 2 "" V 2780 6750 50  0000 C CNN
+F 3 "" H 2850 6750 50  0000 C CNN
+	1    2850 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 6600 2850 6600
+Wire Wire Line
+	3050 6400 3050 6600
+$Comp
+L LED D?
+U 1 1 58C5A7FD
+P 3000 7750
+F 0 "D?" H 3000 7850 50  0000 C CNN
+F 1 "LED" H 3000 7650 50  0000 C CNN
+F 2 "" H 3000 7750 50  0000 C CNN
+F 3 "" H 3000 7750 50  0000 C CNN
+	1    3000 7750
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 58C5A804
+P 2850 7600
+F 0 "R?" V 2750 7600 50  0000 C CNN
+F 1 "Rled" V 2850 7600 50  0000 C CNN
+F 2 "" V 2780 7600 50  0000 C CNN
+F 3 "" H 2850 7600 50  0000 C CNN
+	1    2850 7600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 7450 3050 7450
+Wire Wire Line
+	3050 7450 3050 7350
+$Comp
+L LED D?
+U 1 1 58C5A8F1
+P 3000 8600
+F 0 "D?" H 3000 8700 50  0000 C CNN
+F 1 "LED" H 3000 8500 50  0000 C CNN
+F 2 "" H 3000 8600 50  0000 C CNN
+F 3 "" H 3000 8600 50  0000 C CNN
+	1    3000 8600
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 58C5A8F8
+P 2850 8450
+F 0 "R?" V 2750 8450 50  0000 C CNN
+F 1 "Rled" V 2850 8450 50  0000 C CNN
+F 2 "" V 2780 8450 50  0000 C CNN
+F 3 "" H 2850 8450 50  0000 C CNN
+	1    2850 8450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 8300 3050 8300
+Wire Wire Line
+	3050 8300 3050 8200
+$Comp
+L LED D?
+U 1 1 58C5B78B
+P 3000 9450
+F 0 "D?" H 3000 9550 50  0000 C CNN
+F 1 "LED" H 3000 9350 50  0000 C CNN
+F 2 "" H 3000 9450 50  0000 C CNN
+F 3 "" H 3000 9450 50  0000 C CNN
+	1    3000 9450
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 58C5B792
+P 2850 9300
+F 0 "R?" V 2750 9300 50  0000 C CNN
+F 1 "Rled" V 2850 9300 50  0000 C CNN
+F 2 "" V 2780 9300 50  0000 C CNN
+F 3 "" H 2850 9300 50  0000 C CNN
+	1    2850 9300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 9150 3050 9150
+Wire Wire Line
+	3050 9150 3050 9050
+$Comp
+L LED D?
+U 1 1 58C5C2EB
+P 3000 10300
+F 0 "D?" H 3000 10400 50  0000 C CNN
+F 1 "LED" H 3000 10200 50  0000 C CNN
+F 2 "" H 3000 10300 50  0000 C CNN
+F 3 "" H 3000 10300 50  0000 C CNN
+	1    3000 10300
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 58C5C2F2
+P 2850 10150
+F 0 "R?" V 2750 10150 50  0000 C CNN
+F 1 "Rled" V 2850 10150 50  0000 C CNN
+F 2 "" V 2780 10150 50  0000 C CNN
+F 3 "" H 2850 10150 50  0000 C CNN
+	1    2850 10150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 10000 3050 10000
+Wire Wire Line
+	3050 10000 3050 9900
+$Comp
+L LED D?
+U 1 1 58C5E819
+P 3000 11350
+F 0 "D?" H 3000 11450 50  0000 C CNN
+F 1 "LED" H 3000 11250 50  0000 C CNN
+F 2 "" H 3000 11350 50  0000 C CNN
+F 3 "" H 3000 11350 50  0000 C CNN
+	1    3000 11350
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 58C5E820
+P 2850 11200
+F 0 "R?" V 2750 11200 50  0000 C CNN
+F 1 "Rled" V 2850 11200 50  0000 C CNN
+F 2 "" V 2780 11200 50  0000 C CNN
+F 3 "" H 2850 11200 50  0000 C CNN
+	1    2850 11200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 11050 2850 11050
+Wire Wire Line
+	3050 10850 3050 11050
+$Comp
+L LED D?
+U 1 1 58C6000D
+P 3000 12200
+F 0 "D?" H 3000 12300 50  0000 C CNN
+F 1 "LED" H 3000 12100 50  0000 C CNN
+F 2 "" H 3000 12200 50  0000 C CNN
+F 3 "" H 3000 12200 50  0000 C CNN
+	1    3000 12200
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 58C60014
+P 2850 12050
+F 0 "R?" V 2750 12050 50  0000 C CNN
+F 1 "Rled" V 2850 12050 50  0000 C CNN
+F 2 "" V 2780 12050 50  0000 C CNN
+F 3 "" H 2850 12050 50  0000 C CNN
+	1    2850 12050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 11900 3050 11900
+Wire Wire Line
+	3050 11900 3050 11800
+$Comp
+L LED D?
+U 1 1 58C60EB9
+P 3000 13050
+F 0 "D?" H 3000 13150 50  0000 C CNN
+F 1 "LED" H 3000 12950 50  0000 C CNN
+F 2 "" H 3000 13050 50  0000 C CNN
+F 3 "" H 3000 13050 50  0000 C CNN
+	1    3000 13050
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 58C60EC0
+P 2850 12900
+F 0 "R?" V 2750 12900 50  0000 C CNN
+F 1 "Rled" V 2850 12900 50  0000 C CNN
+F 2 "" V 2780 12900 50  0000 C CNN
+F 3 "" H 2850 12900 50  0000 C CNN
+	1    2850 12900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 12750 3050 12750
+Wire Wire Line
+	3050 12750 3050 12650
+$Comp
+L LED D?
+U 1 1 58C60FC5
+P 3000 13900
+F 0 "D?" H 3000 14000 50  0000 C CNN
+F 1 "LED" H 3000 13800 50  0000 C CNN
+F 2 "" H 3000 13900 50  0000 C CNN
+F 3 "" H 3000 13900 50  0000 C CNN
+	1    3000 13900
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 58C60FCC
+P 2850 13750
+F 0 "R?" V 2750 13750 50  0000 C CNN
+F 1 "Rled" V 2850 13750 50  0000 C CNN
+F 2 "" V 2780 13750 50  0000 C CNN
+F 3 "" H 2850 13750 50  0000 C CNN
+	1    2850 13750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 13600 3050 13600
+Wire Wire Line
+	3050 13600 3050 13500
+$Comp
+L LED D?
+U 1 1 58C62139
+P 3000 14750
+F 0 "D?" H 3000 14850 50  0000 C CNN
+F 1 "LED" H 3000 14650 50  0000 C CNN
+F 2 "" H 3000 14750 50  0000 C CNN
+F 3 "" H 3000 14750 50  0000 C CNN
+	1    3000 14750
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 58C62140
+P 2850 14600
+F 0 "R?" V 2750 14600 50  0000 C CNN
+F 1 "Rled" V 2850 14600 50  0000 C CNN
+F 2 "" V 2780 14600 50  0000 C CNN
+F 3 "" H 2850 14600 50  0000 C CNN
+	1    2850 14600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 14450 3050 14450
+Wire Wire Line
+	3050 14450 3050 14350
+Connection ~ 3050 14350
+Connection ~ 3050 13500
+Connection ~ 3050 12650
+Connection ~ 3050 11800
+Connection ~ 3050 10850
+Connection ~ 3050 9900
+Connection ~ 3050 9050
+Connection ~ 3050 8200
+Connection ~ 3050 7350
+Connection ~ 3050 6400
+Connection ~ 3050 5450
+Connection ~ 3050 4600
+Connection ~ 3050 2900
+Connection ~ 3050 2050
+$Comp
+L CONN_01X14 P?
+U 1 1 58C99C8F
+P 800 8150
+F 0 "P?" H 800 8900 50  0000 C CNN
+F 1 "CONN_01X14" V 900 8150 50  0000 C CNN
+F 2 "" H 800 8150 50  0000 C CNN
+F 3 "" H 800 8150 50  0000 C CNN
+	1    800  8150
+	-1   0    0    1   
+$EndComp
+Text Notes 650  9800 0    39   ~ 0
+male
+Text Notes 650  7300 0    39   ~ 0
+male\nMake Different than Battery
+Text Notes 600  8450 0    39   ~ 0
+male
+Text Notes 7100 2550 0    39   ~ 0
+female
+Text Notes 9200 9200 0    39   ~ 0
+female
+Text Notes 9200 9700 0    39   ~ 0
+female
+Text Notes 9200 10200 0    39   ~ 0
+female
+Text Notes 8650 4450 0    39   ~ 0
+female
 $EndSCHEMATC
