@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:BMS-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -31,6 +32,7 @@ LIBS:valves
 LIBS:bq76940
 LIBS:NOPUSH
 LIBS:arduino
+LIBS:lm2576
 LIBS:BMS-cache
 EELAYER 25 0
 EELAYER END
@@ -767,9 +769,9 @@ Text GLabel 2900 3750 0    60   Input ~ 0
 C_13+/14-
 Text GLabel 2900 2900 0    60   Input ~ 0
 C_14+/15-
-Text Notes 3150 15450 0    39   ~ 0
+Text Notes 2950 15450 0    39   ~ 0
 Cell Ballancing\n
-Text Notes 2500 15450 0    39   ~ 0
+Text Notes 2200 15450 0    39   ~ 0
 Battery\n
 Text GLabel 4400 2050 2    39   Input ~ 0
 VC15
@@ -1775,55 +1777,31 @@ Text Notes 9400 3000 0    39   ~ 0
 Battery Negative
 Text Notes 6000 4300 0    39   ~ 0
 Battery Negative
-$Comp
-L LM1084IS-5.0/NOPB U?
-U 1 1 58DCCB29
-P 6200 1850
-F 0 "U?" H 6400 1650 50  0000 C CNN
-F 1 "LM1084IS-5.0/NOPB" H 5900 2050 50  0000 L CNN
-F 2 "TO-263" H 6200 1950 50  0000 C CIN
-F 3 "" H 6200 1850 50  0000 C CNN
-	1    6200 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C?
-U 1 1 58DD2497
-P 6650 2000
-F 0 "C?" H 6675 2100 50  0000 L CNN
-F 1 "C" H 6675 1900 50  0000 L CNN
-F 2 "" H 6688 1850 50  0000 C CNN
-F 3 "" H 6650 2000 50  0000 C CNN
-	1    6650 2000
-	1    0    0    -1  
-$EndComp
-Text GLabel 7100 1800 2    39   Input ~ 0
+Text GLabel 7300 1800 2    39   Input ~ 0
 Vin
 $Comp
 L VSS #PWR?
 U 1 1 58DD56CE
-P 6200 2350
-F 0 "#PWR?" H 6200 2200 50  0001 C CNN
-F 1 "VSS" H 6200 2500 50  0000 C CNN
-F 2 "" H 6200 2350 50  0000 C CNN
-F 3 "" H 6200 2350 50  0000 C CNN
-	1    6200 2350
+P 5800 2350
+F 0 "#PWR?" H 5800 2200 50  0001 C CNN
+F 1 "VSS" H 5800 2500 50  0000 C CNN
+F 2 "" H 5800 2350 50  0000 C CNN
+F 3 "" H 5800 2350 50  0000 C CNN
+	1    5800 2350
 	-1   0    0    1   
 $EndComp
-Text GLabel 5750 1800 0    60   Input ~ 0
-C_5+/6-
 $Comp
 L CONN_01X02 P?
 U 1 1 58C1BE36
-P 7150 2250
-F 0 "P?" H 7150 2400 50  0000 C CNN
-F 1 "CONN_01X02" V 7250 2250 50  0000 C CNN
-F 2 "" H 7150 2250 50  0000 C CNN
-F 3 "" H 7150 2250 50  0000 C CNN
-	1    7150 2250
+P 7350 2300
+F 0 "P?" H 7350 2450 50  0000 C CNN
+F 1 "CONN_01X02" V 7450 2300 50  0000 C CNN
+F 2 "" H 7350 2300 50  0000 C CNN
+F 3 "" H 7350 2300 50  0000 C CNN
+	1    7350 2300
 	1    0    0    -1  
 $EndComp
-Text Notes 7050 2400 2    60   ~ 0
+Text Notes 7550 1650 2    39   ~ 0
 5V Power Output
 Text Notes 5350 2750 0    79   ~ 0
 5V Voltage Regulator Circuit
@@ -1841,18 +1819,18 @@ $EndComp
 Text Notes 6650 16250 0    79   ~ 0
 BMarkley's BMS
 Text Notes 9850 16400 0    79   ~ 0
-1
+3
 Text Notes 7400 16350 0    59   ~ 0
 March 09 2017
 $Comp
 L Polyfuse F?
 U 1 1 58C39507
-P 6900 2000
-F 0 "F?" V 6800 2000 50  0000 C CNN
-F 1 "Polyfuse" V 7000 2000 50  0000 C CNN
-F 2 "" H 6950 1800 50  0001 L CNN
-F 3 "" H 6900 2000 50  0001 C CNN
-	1    6900 2000
+P 7100 2000
+F 0 "F?" V 7000 2000 50  0000 C CNN
+F 1 "Polyfuse" V 7200 2000 50  0000 C CNN
+F 2 "" H 7150 1800 50  0001 L CNN
+F 3 "" H 7100 2000 50  0001 C CNN
+	1    7100 2000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3000,37 +2978,33 @@ Wire Notes Line
 Wire Wire Line
 	9350 10300 9300 10300
 Wire Wire Line
-	6200 2100 6200 2300
+	5800 2350 5800 2350
 Wire Wire Line
-	6200 2300 6200 2350
+	6800 1800 6850 1800
 Wire Wire Line
-	6600 1800 6650 1800
+	6850 1800 7100 1800
 Wire Wire Line
-	6650 1800 6900 1800
+	7100 1800 7300 1800
 Wire Wire Line
-	6900 1800 7100 1800
+	5250 2350 5800 2350
 Wire Wire Line
-	6650 1800 6650 1850
-Connection ~ 6650 1800
+	5800 2350 6250 2350
 Wire Wire Line
-	6650 2150 6650 2300
+	6250 2350 6450 2350
 Wire Wire Line
-	6200 2300 6650 2300
+	6450 2350 6850 2350
 Wire Wire Line
-	6650 2300 6950 2300
-Connection ~ 6200 2300
-Wire Wire Line
-	5800 1800 5750 1800
-Connection ~ 6900 1800
-Connection ~ 6650 2300
+	6850 2350 7150 2350
+Connection ~ 5800 2350
+Connection ~ 6850 1800
 Wire Notes Line
-	5200 1550 7300 1550
+	4800 1550 7600 1550
 Wire Notes Line
-	7300 1550 7300 2600
+	7600 1550 7600 2600
 Wire Notes Line
-	7300 2600 5200 2600
+	7600 2600 4800 2600
 Wire Notes Line
-	5200 2600 5200 1550
+	4800 2600 4800 1550
 Wire Wire Line
 	9400 3400 9350 3400
 Wire Wire Line
@@ -3044,11 +3018,15 @@ Wire Wire Line
 Wire Wire Line
 	8150 3200 8100 3200
 Wire Wire Line
-	6900 1800 6900 1850
+	6850 1700 6850 1800
 Wire Wire Line
-	6950 2200 6900 2200
+	6850 1800 6850 1850
 Wire Wire Line
-	6900 2200 6900 2150
+	7100 1800 7100 1850
+Wire Wire Line
+	7150 2250 7100 2200
+Wire Wire Line
+	7100 2200 7100 2150
 Wire Wire Line
 	9700 3100 9750 3100
 Wire Wire Line
@@ -3451,7 +3429,7 @@ Text Notes 650  7250 0    39   ~ 0
 Male\n
 Text Notes 600  8450 0    39   ~ 0
 male
-Text Notes 7100 2550 0    39   ~ 0
+Text Notes 7300 2550 0    39   ~ 0
 female
 Text Notes 9200 9200 0    39   ~ 0
 female
@@ -3465,6 +3443,77 @@ Text Notes 650  7300 0    39   ~ 0
 Unique Connector
 Text Notes 650  9850 0    39   ~ 0
 Unique Connector
-Text Notes 6750 2600 0    39   ~ 0
+Text Notes 6950 2600 0    39   ~ 0
 Unique Connector
+Wire Wire Line
+	6850 1700 6250 1700
+$Comp
+L L L?
+U 1 1 58C6BC2B
+P 6650 1800
+F 0 "L?" V 6600 1800 50  0000 C CNN
+F 1 "100uH" V 6725 1800 50  0000 C CNN
+F 2 "" H 6650 1800 50  0000 C CNN
+F 3 "" H 6650 1800 50  0000 C CNN
+	1    6650 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6250 1800 6450 1800
+Wire Wire Line
+	6450 1800 6500 1800
+$Comp
+L C C?
+U 1 1 58C6C7AA
+P 6850 2000
+F 0 "C?" H 6875 2100 50  0000 L CNN
+F 1 "1mF" H 6875 1900 50  0000 L CNN
+F 2 "" H 6888 1850 50  0000 C CNN
+F 3 "" H 6850 2000 50  0000 C CNN
+	1    6850 2000
+	1    0    0    -1  
+$EndComp
+Connection ~ 7100 1800
+Wire Wire Line
+	6850 2150 6850 2350
+Connection ~ 6850 2350
+$Comp
+L D_Schottky D?
+U 1 1 58C6D7C7
+P 6450 2100
+F 0 "D?" H 6450 2200 50  0000 C CNN
+F 1 "D_Schottky" H 6450 2000 50  0000 C CNN
+F 2 "" H 6450 2100 50  0000 C CNN
+F 3 "" H 6450 2100 50  0000 C CNN
+	1    6450 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6450 1800 6450 1950
+Connection ~ 6450 1800
+Wire Wire Line
+	6450 2250 6450 2350
+Connection ~ 6450 2350
+Wire Wire Line
+	6250 1900 6250 2350
+Connection ~ 6250 2350
+Wire Wire Line
+	5250 1900 5250 2350
+$Comp
+L LM2576 U?
+U 1 1 58C6B3E9
+P 5750 1800
+F 0 "U?" H 5750 1600 59  0000 C CNN
+F 1 "LM2576" H 5750 2000 59  0000 C CNN
+F 2 "" H 5650 1900 59  0001 C CNN
+F 3 "" H 5650 1900 59  0001 C CNN
+	1    5750 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 1750 5200 1750
+Text GLabel 5200 1750 0    60   Input ~ 0
+PACK+
+Text Notes 5350 1650 2    39   ~ 0
+48v Power Output
 $EndSCHEMATC
